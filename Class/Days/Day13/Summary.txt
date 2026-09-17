@@ -1,0 +1,20 @@
+Summary of Threads
+# Threading
+1 Lightweight concurrent execution
+2 Shared memory space
+3 Suitable for I/O bound tasks
+4 Limited by GIL for CPU-bound tasks
+
+Synchronization:
+1. Race condition exists among the threads
+2. Locks (Mutex): protecting the shared data
+
+When to use Threads:
+File I/O operations
+Network operations
+DB operations
+
+When not to use Threads:
+CPU intensive tasks
+Image processing
+Data processing Pipeline
